@@ -1,0 +1,26 @@
+# Ignore Python virtual environments
+venv/
+env/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore SLURM output files
+slurm/*.out
+slurm/*.err
+
+# Ignore large dataset files
+data/
+# *.csv
+*.h5
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
